@@ -9,7 +9,7 @@ public class GameManagement : MonoBehaviour
     [SerializeField]
     private GameObject CoinFactory;
     //const = 変数の値を変更せず定数として宣言する際に使う修飾子
-    private const int Max_COIN = 50;
+    private const int Max_COIN = 150;
     // Listを使う場合 = List構造で何かを管理したいときにList<>を活用する
     //他にも、配列やArraryList,type[]などがある。
     //Listを活用する際は、using System.Collections.Generic;の宣言がないと活用できない
